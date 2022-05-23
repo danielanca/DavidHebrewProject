@@ -36,39 +36,39 @@ const NavBarResidence = () => {
         <MenuMobile />
         <ul className={styles.ulMenuEnd}>
           <li onClick={() => sendAnalyticsForReviews()} className={styles.liItem}>
-            <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.facilities.link}>
-              {strings.navMenu.facilities.text}
+            <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.desprenoi.link}>
+              {strings.navMenu.desprenoi.text}
             </NavHashLink>
           </li>
           <li onClick={() => sendAnalyticsForOffers()} className={styles.liItem}>
-            <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.gallery.link}>
-              {strings.navMenu.gallery.text}
+            <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.produse.link}>
+              {strings.navMenu.produse.text}
             </NavHashLink>
           </li>
         </ul>
         <div className={styles.middleNoUl}>
-          <NavHashLink to={strings.navMenu.welcome.link}>
+          <NavHashLink to={strings.navMenu.contact.link}>
             <img className={styles.navLogo} alt={"Logo"} src={images.logo} />
           </NavHashLink>
         </div>
         <ul className={styles.ulMenuStart}>
           <li onClick={() => sendAnalyticsForReviews()} className={styles.liItem}>
-            <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.location.link}>
-              {strings.navMenu.location.text}
+            <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.altele.link}>
+              {strings.navMenu.altele.text}
             </NavHashLink>
           </li>
-          <li onClick={() => sendAnalyticsForLocation()} className={styles.liItem}>
+          <li onClick={() => sendAnalyticsForReviews()} className={styles.liItem}>
             <NavHashLink className={styles.HashLinkStyle} to={strings.navMenu.contact.link}>
               {strings.navMenu.contact.text}
             </NavHashLink>
           </li>
         </ul>
-        <div className={styles.phoneContainer}>
+        {/* <div className={styles.phoneContainer}>
           <a href={"tel:" + strings.footer.address.phone}>
             <img className={styles.phoneIcon} src={images.phoneIcon} />
           </a>
-        </div>
-        <Banner />
+        </div> */}
+        {/* <Banner /> */}
       </div>
     </>
   );

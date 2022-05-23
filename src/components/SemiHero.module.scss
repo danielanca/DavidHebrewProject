@@ -1,0 +1,74 @@
+
+@import "./../main.module.scss";
+@import "./../data/themes.scss";
+.starLogo{
+    width: 202px;
+    height: 202px;
+}
+
+.imageBackground {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fblackbackground-min.jpg?alt=media&token=87147fb2-dcc2-435e-9717-6f6209769e1d");
+  width: 100%;
+  height: 100vh;
+//   filter: blur(12px);
+  object-fit: cover;
+  backdrop-filter: blur(12px);
+  background-size: cover;
+  &::after {
+    display: block;
+    position: absolute;
+
+    // background-image: #FFFFFF;
+    background-image: -webkit-linear-gradient(to bottom, rgba(51, 41, 46, 0.37) 0%, rgba(13, 13, 13, 0.44) 100%);
+    background-image: -moz-linear-gradient(to bottom, rgba(51, 41, 46, 0.37) 0%, rgba(13, 13, 13, 0.44) 100%);
+    background-image: linear-gradient(to bottom, #ffffff, #5d6c62);
+    background-image: linear-gradient(to bottom, rgba(51, 41, 46, 0.37) 0%, rgba(13, 13, 13, 0.44) 100%);
+
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+}
+.reserveButton {
+  position: absolute;
+  left: 50%;
+  top: 76%;
+  transform: translate(-50%, -50%);
+}
+.bookNow {
+  width: 200px;
+  height: 60px;
+  font-weight: bolder;
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.headerTitle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  position: relative;
+}
+
+.h3Title {
+  font-size: 2.75rem;
+  color: white;
+  font-weight: bolder;
+  font-family: "Montserrat Regular";
+}
+.prices {
+  font-size: 1.65rem;
+  color: beige;
+  font-weight: bold;
+}

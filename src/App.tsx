@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Reviews from "./components/Reviews";
 import MapLocation from "./components/MapLocation";
 import Facilities from "./components/Facilities";
+import SemiHero from './components/SemiHero'
 import ReactGA from "react-ga4";
 
 ReactGA.initialize("G-Y15PCE8J0V");
@@ -22,13 +23,14 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBarResidence />
-        <HeroHeader />
-        <GallerySection />
+      <SemiHero />
+        {/* <HeroHeader /> */}
+        {/* <GallerySection />
         <Reviews />
         <Facilities />
         <MapLocation />
-        <Turistice />
-        <Footer />
+        <Turistice /> */}
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

@@ -1,22 +1,6 @@
 const images = {
-  logo: "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FnewPics%2FcasaCalySvg.svg?alt=media&token=afda1e98-fceb-4b82-9e10-f04eca4cfb3d",
-  facilities: {
-    kitchen:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F1877051.png?alt=media&token=9e3d0206-4a11-4a31-a45f-ead46d12c561",
-    bedroom:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F2414578.png?alt=media&token=3bb6d92a-e932-49c3-a9ca-a4802b13b2f81",
-    bedroom2:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F2414596.png?alt=media&token=a9647ef3-e4c1-42d4-8696-f1b7098533c5",
-    bathroom:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F4986411.png?alt=media&token=1284ac7f-0351-400f-967b-62c43141816f",
-    wifi: "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F5646425.png?alt=media&token=0333386f-3806-483b-a90c-e263bb202ce2",
-    parking:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F5646433.png?alt=media&token=4be9580f-5304-4062-8430-7ad28c515d4e",
-    restaurant:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F5646435.png?alt=media&token=92f8f18a-76ff-4f0d-966b-556f195e185b",
-    heating:
-      "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F6897558.png?alt=media&token=b183a9db-af94-46d1-aff6-5d0ba1b2d2ee"
-  },
+  logo: require('./../media/star.png'),
+ 
   heroImage: require("./../media/casaCaly.png"),
   phoneIcon: require("./../media/phone.png"),
   googleReviews: require("./../media/googleReviews.png"),

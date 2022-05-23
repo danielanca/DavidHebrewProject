@@ -1,11 +1,10 @@
 {
   "navMenu": {
-    "welcome": { "text": "Bun Venit", "link": "#home" },
-    "gallery": { "text": "Galerie", "link": "#gallery" },
-    "visit": { "text": "Viziteaza", "link": "#tourist" },
-    "facilities": { "text": "Facilitati", "link": "#facilities" },
-    "location": { "text": "Locatia", "link": "#location" },
-    "contact": { "text": "Contact", "link": "#contact" }
+    "desprenoi": { "text": "Despre noi", "link": "#despre-noi" },
+    "produse": { "text": "Produse", "link": "#produse" },
+    "contact": { "text": "Contact", "link": "#contact" },
+    "altele": { "text": "Altele", "link": "#altele" }
+   
   },
   "turism": {
     "salinaTurda": {
