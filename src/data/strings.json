@@ -1,0 +1,86 @@
+{
+  "navMenu": {
+    "welcome": { "text": "Bun Venit", "link": "#home" },
+    "gallery": { "text": "Galerie", "link": "#gallery" },
+    "visit": { "text": "Viziteaza", "link": "#tourist" },
+    "facilities": { "text": "Facilitati", "link": "#facilities" },
+    "location": { "text": "Locatia", "link": "#location" },
+    "contact": { "text": "Contact", "link": "#contact" }
+  },
+  "turism": {
+    "salinaTurda": {
+      "title": "Salina Turda",
+      "distance": "Aprox 3.5km",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FsalinaTurda.jpg?alt=media&token=c49ddc90-e803-4a38-b11f-99edfc7c64c7",
+      "description": "O comoară din adâncuri, care se lasă dezvăluită, în întreaga-i frumusețe. Un tărâm magic, care face bine. Te îmbie la relaxare, deconectare, apropiere de natură și de cei dragi. Un izvor inepuizabil de sănătate.",
+      "link": "https://www.google.com/maps/place/Salina+Turda/@46.5877459,23.7872654,15z/data=!4m2!3m1!1s0x0:0xd47e573765edc10c?sa=X&ved=2ahUKEwiswYiy2vX0AhXEMewKHRj6Dp0Q_BJ6BAgyEAU"
+    },
+    "cheileTurzii": {
+      "title": "Cheile Turzii",
+      "distance": "Aprox 15 km",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FcheileTurzii.jpg?alt=media&token=3123ab9d-443a-465d-a6f3-1c5866b3bb4a",
+      "description": "Cheile Turzii oferă un peisaj carstic de o rară sălbăticie: stânci înalte și abrupte, creste ascuțite, turnuri de piatră, vâlcele pietroase, grohotișuri, arcade etc. Conține peste 1.000 de specii de plante si animale.",
+      "link": "https://g.page/cheile-turzii-petrestii-de-jos?share"
+    },
+    "cheileTureni": {
+      "title": "Cheile Tureni",
+      "distance": "Aprox 12 km",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FcheileTureni.jpg?alt=media&token=d621f91b-76a0-4d87-9a7f-a2903c31b237",
+      "description": "Cheile au o lungime de 1.850 m, iar pereții (înalți de 100-150 m) sunt decorați cu diferite forme carstice: cascade, marmite, peșteri etc. Sunt relativ greu de străbătut. Au fost săpate de Valea Racilor în calcare jurasice și sunt situate între comuna Tureni si satul Copăceni.",
+      "link": "https://goo.gl/maps/7xJPFhjThsAza2XS8"
+    },
+    "castrulRoman": {
+      "title": "Castrul Roman",
+      "distance": "Aprox 5 km",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FcastrulRoman.jpg?alt=media&token=39643700-205c-4e1c-a9b1-9284e738e63e",
+      "description": "Cel mai important monument istorico-arheologic al orașului Turda este castrul roman Potaissa al Legiunii a V-a Macedonica, de pe platoul numit Dealul Cetății. Castrul a fost construit de către această legiune în anul 168.",
+      "link": "https://goo.gl/maps/yJ2G4YhgekfujFNw5"
+    },
+    "mormantulMV": {
+      "title": "Mormantul lui Mihai Viteazu",
+      "distance": "Aprox 9 km",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2Fmihaiviteazu.jpg?alt=media&token=f933cd62-62fc-4d14-bfe8-ad4c160afb38",
+      "description": "Mormântul lui Mihai Viteazul se află la 3 km sud de centrul municipiului Turda (pe Aleea Obeliscului). Aici a fost îngropat trupul lui Mihai Viteazul.",
+      "link": "https://goo.gl/maps/yJ2G4YhgekfujFNw5"
+    },
+    "bisericaSovagailor": {
+      "title": "Biserica Șovagăilor Turda",
+      "distance": "Aprox 3 km",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2Fsovagii.jpg?alt=media&token=cbdc6c8c-9fa3-490d-a865-3ac31502c9a3",
+      "description": "În anul 1467 regele Matei Corvin a înăbușit un complot al nobililor din Cluj si Turda și a numit ca prefect al Salinelor din Ardeal pe Miklos Olah, un unchi al său de viță românească, care a permis românilor ortodocși de la Salina Turda să-și construiască în acel an o biserică proprie.",
+      "link": "https://www.google.com/maps/place/Biserica+Șovagăilor/@46.5800995,23.7810152,15z/data=!4m2!3m1!1s0x0:0x127c049d8fc95df1?sa=X&hl=en&ved=2ahUKEwil0bi-4_b0AhUHgv0HHTqBCtEQ_BJ6BAguEAU"
+    },
+    "muzeuleDeIstorie": {
+      "title": "Muzeul de istorie Turda",
+      "distance": "Aprox 3 km",
+      "description": "Muzeul de Istorie Turda deţine un valoros patrimoniu, de cca 40.000 de bunuri culturale mobile, care se structurează în colecţia de preistorie, colecţia romană şi postromană, colecţia medieval-modernă şi memorialistică, colecţia etnografică şi colecţia de artă.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FmuzeuIstorie.jpg?alt=media&token=9c1bd338-4188-45d6-8cd7-e9465c6b9a6b",
+      "link": "https://www.google.com/maps/place/Biserica+Șovagăilor/@46.5800995,23.7810152,15z/data=!4m2!3m1!1s0x0:0x127c049d8fc95df1?sa=X&hl=en&ved=2ahUKEwil0bi-4_b0AhUHgv0HHTqBCtEQ_BJ6BAguEAU"
+    },
+    "bisericaReformataCalvina": {
+      "title": "Biserica Reformată Calvină",
+      "distance": "Aprox 3 km",
+      "description": "Edificiul actual a fost construit la începutul secolului al XV-lea, pe vremea împăratului Sigismund de Luxemburg (1387-1437), totodată suveran al Regatului Ungariei, pe amplasamentul vechii biserici.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2Fbiserica.jpg?alt=media&token=92682e57-fdf1-4c7a-aa63-fa7394d19054",
+      "link": "https://www.google.com/maps/place/Biserica+Șovagăilor/@46.5800995,23.7810152,15z/data=!4m2!3m1!1s0x0:0x127c049d8fc95df1?sa=X&hl=en&ved=2ahUKEwil0bi-4_b0AhUHgv0HHTqBCtEQ_BJ6BAguEAU"
+    }
+  },
+
+  "footer": {
+    "menuItems": {
+      "bunvenit": { "text": "Bun Venit", "link": "#bunvenit" },
+      "galerie": { "text": "Galerie", "link": "#galerie" },
+      "rezervare": { "text": "Rezervare", "link": "#rezervare" },
+      "contact": { "text": "Contact", "link": "#contact" }
+    },
+
+    "address": {
+      "locationAddress": "Strada Frăgăriște 28, Turda, jud.Cluj",
+      "phone": "+40 759 791 474",
+      "email": "emilcristiann@gmail.com"
+    },
+    "copyrightStuff": {
+      "copyText": "Copyright C 2022 | CasaCaly.Ro Turda | Website creat de  DaniAnca.Ro"
+    }
+  }
+}

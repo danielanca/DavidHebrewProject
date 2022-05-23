@@ -1,0 +1,24 @@
+@import "./../main.module.scss";
+@import "./../data/themes.scss";
+
+.locationContainer {
+  width: 100%;
+  min-height: 765px;
+}
+.mapContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+  max-height: 615px;
+  height: 500px;
+}
+.shadower {
+  width: 80%;
+  min-width: 338px;
+  max-width: 900px;
+  max-height: 498px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

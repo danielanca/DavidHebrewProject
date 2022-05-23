@@ -1,0 +1,28 @@
+{
+  "facilities": {
+    "rooms": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F2414578.png?alt=media&token=3bb6d92a-e932-49c3-a9ca-a4802b13b2f81",
+      "text": "3 camere, 3 bai, maxim 12 persoane,"
+    },
+    "kitchen": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F1877051.png?alt=media&token=9e3d0206-4a11-4a31-a45f-ead46d12c561",
+      "text": "Bucatarie comuna, Gratar, Gradina si Curte"
+    },
+    "kitchen2": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F2414596.png?alt=media&token=a9647ef3-e4c1-42d4-8696-f1b7098533c5",
+      "text": "Pat matrimonial + canapea extensibila"
+    },
+    "wifi": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F5646425.png?alt=media&token=0333386f-3806-483b-a90c-e263bb202ce2",
+      "text": "Internet/Wi-Fi"
+    },
+    "heating": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2F6897558.png?alt=media&token=b183a9db-af94-46d1-aff6-5d0ba1b2d2ee",
+      "text": "Incalzire"
+    },
+    "nofee": {
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/casacaly%2FiconsFacilities%2Fpayment.png?alt=media&token=287b74fa-5b86-45b2-80ca-d5212cbd57dc",
+      "text": "Rezervare Avans 30%"
+    }
+  }
+}

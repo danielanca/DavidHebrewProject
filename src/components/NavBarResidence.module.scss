@@ -1,0 +1,223 @@
+@import "./../main.module.scss";
+@import "./../data/themes.scss";
+
+.middleNoUl {
+  @extend .col-3;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 140px;
+  width: calc(159px + -2vw * 1.5);
+  top: 0;
+}
+.navbarContainer {
+  width: 100%;
+  height: 83px;
+  position: fixed;
+  background-color: map-get($map: $colors, $key: navBarBackground);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.ulMenu {
+  @extend .col-4;
+  list-style: none;
+  margin-bottom: 0;
+  width: 20%;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0 !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ulMenuStart {
+  @extend .ulMenu;
+  @include media("<tablet") {
+    display: none;
+  }
+}
+.ulMenuEnd {
+  @extend .ulMenu;
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.burgerMenu {
+  display: none;
+
+  @include media("<desktop") {
+    border: 2px solid map-get($map: $colors, $key: mainlyBlack);
+    background-color: map-get($map: $colors, $key: burgerColorBackground);
+    border-radius: 1px;
+    font-size: 1.2em;
+    font-weight: 500;
+    opacity: 0;
+    z-index: 24;
+    transition: 0.6s ease-in;
+    animation: fadeIn 0.5s;
+    -webkit-animation: fadeIn 0.5s;
+    -moz-animation: fadeIn 0.5s;
+    -o-animation: fadeIn 0.5s;
+    -ms-animation: fadeIn 0.5s;
+
+    width: 85vw;
+    margin-top: 2.2vh;
+    position: absolute;
+    top: 140px;
+  }
+}
+.activeBurger {
+  display: block;
+  @include media("<desktop") {
+    opacity: 1;
+    align-self: center;
+  }
+}
+.ulMobile {
+  list-style: none;
+  padding: 19px;
+  text-align: center;
+}
+.liMobile {
+  color: map-get($map: $colors, $key: headColor);
+  font-weight: bolder;
+  margin-top: 6%;
+
+  @include media("<tablet") {
+    font-size: calc(20px + 33%);
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 2.3vh;
+  }
+}
+
+.liItem {
+  font-weight: 600;
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: map-get($map: $colors, $key: liItemColor);
+  margin: 0 0.8vw;
+
+  border-bottom: 2.5px solid transparent;
+  white-space: nowrap;
+  &:hover {
+    animation: borderFade 0.4s;
+  }
+  &:hover {
+    border-bottom: 2.5px solid map-get($map: $colors, $key: liItemColor);
+  }
+  @keyframes borderFade {
+    0% {
+      border-bottom: 2.5px solid transparent;
+    }
+    100% {
+      border-bottom: 2.5px solid map-get($map: $colors, $key: liItemColor);
+    }
+  }
+}
+.HashLinkStyle {
+  color: map-get($map: $colors, $key: liItemColor);
+  text-decoration: none;
+  &:hover {
+    color: map-get($map: $colors, $key: liItemColor);
+  }
+}
+.navLogo {
+  top: 0;
+  height: 100%;
+}
+.burgerElement {
+  display: initial;
+  z-index: 24;
+  height: 36px;
+  width: 31px;
+  transition: 0.5s;
+  align-self: center;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  @include media("<tablet") {
+    width: 28px;
+    height: 2.5px;
+    background-color: map-get($map: $colors, $key: blackSolid);
+    margin: 3px 0;
+    transition: 0.8s;
+  }
+
+  @include media(">=tablet", "<desktop") {
+    width: 33px;
+    height: 3.5px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.8s;
+  }
+}
+
+.bar1End {
+  -webkit-transform: rotate(-45deg) translate(-5px, 2px);
+  transform: rotate(-45deg) translate(-5px, 2px);
+  background-color: map-get($map: $colors, $key: whitePure);
+}
+.bar2End {
+  display: none;
+}
+.bar3End {
+  -webkit-transform: rotate(45deg) translate(-2px, 0px);
+  transform: rotate(45deg) translate(-2px, 0px);
+  background-color: map-get($map: $colors, $key: whitePure);
+}
+
+.menuMobileContainer {
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0%;
+  margin-top: 13px;
+  @include media(">=tablet") {
+    display: none;
+  }
+}
+
+.backDropBackground {
+  display: none;
+  background-color: black;
+  @include media("<desktop") {
+    opacity: 0.7;
+    width: 100vw;
+    position: absolute;
+    height: 185vh;
+    z-index: 8;
+  }
+}
+.active {
+  display: initial;
+}
+.phoneIcon {
+  width: 30px;
+  filter: invert(1);
+}
+.phoneContainer {
+  position: absolute;
+  right: 5%;
+  cursor: pointer;
+}

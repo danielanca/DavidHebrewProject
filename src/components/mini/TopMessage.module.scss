@@ -1,0 +1,26 @@
+@import "./../../main.module.scss";
+@import "./../../data/themes.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  padding: 20px 0;
+  position: relative;
+}
+.topTitle {
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  @include media("<tablet") {
+    font-size: 32px;
+  }
+}
+
+.bottomTitle {
+  font-weight: bolder;
+  font-size: 1.35rem;
+}
+.white {
+  color: white !important;
+}
