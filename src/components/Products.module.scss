@@ -9,6 +9,18 @@
 .titleTop {
   margin-top: 20px;
   font-weight: bold;
+
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgb(255, 230, 0);
+  color: #000000;
+}
+.categoryTitle {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-size: 35px;
 }
 .berriesImage {
   width: 100%;

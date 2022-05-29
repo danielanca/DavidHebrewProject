@@ -9,7 +9,11 @@ const images = {
 
     afine:
       'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fberries_current.png?alt=media&token=08836238-60ff-4d0b-a51e-a482aedfd7f8',
-    mure: 'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2FBlackberry-Fruit-Free-Download-PNG.png?alt=media&token=d0aaecf2-561d-456f-80eb-b32493cd2e83'
+    mure: 'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2FBlackberry-Fruit-Free-Download-PNG.png?alt=media&token=d0aaecf2-561d-456f-80eb-b32493cd2e83',
+
+    gold: 'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fgold.png?alt=media&token=fe4e3394-e691-4b8d-9127-2f6e8e085369',
+    paleta:
+      'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fpalete-min.png?alt=media&token=cfdef114-633c-43e4-b692-cf9a39f78184'
   },
 
   heroImage: require('./../media/casaCaly.png'),
