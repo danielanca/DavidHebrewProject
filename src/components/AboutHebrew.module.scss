@@ -1,0 +1,23 @@
+@import './../main.module.scss';
+@import './../data/themes.scss';
+
+.wrapperContainer {
+  width: 100%;
+  height: 500px;
+  background-color: #000000;
+}
+
+.messageDescription {
+  max-width: 678px;
+  margin: auto;
+}
+.messageDescription p {
+  margin: auto;
+}
+.titleName {
+  font-size: 40px;
+  font-weight: 500;
+}
+.cardBoard {
+  background-color: #fff35c;
+}

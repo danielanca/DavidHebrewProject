@@ -10,7 +10,6 @@ const HeroHeader = () => {
           <img className={styles.starLogo} src={images.logo}></img>
         <h3 className={styles.h3Title}>{"David Hebrew"}</h3>
         <h3 className={styles.prices}>{"Hai sa vorbim!"} </h3>
-       
       </div>
      
     </div>
