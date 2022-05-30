@@ -9,6 +9,7 @@ import SemiHero from './components/SemiHero';
 import ReactGA from 'react-ga4';
 import AboutHebrew from './components/AboutHebrew';
 import Products from './components/Products';
+import LanguageMenu from './components/LanguageMenu';
 
 ReactGA.initialize('G-Y15PCE8J0V');
 ReactGA.send('pageview');
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <LanguageMenu />
         <NavBarResidence />
         <SemiHero />
         <AboutHebrew />

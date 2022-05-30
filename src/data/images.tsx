@@ -15,7 +15,10 @@ const images = {
     paleta:
       'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fpalete-min.png?alt=media&token=cfdef114-633c-43e4-b692-cf9a39f78184'
   },
-
+  languageIcons: {
+    ro: 'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fromania.png?alt=media&token=05a2c4fd-0bcf-4c70-9374-0d93c3f7408a',
+    en: 'https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/DavidHebrew%2Fengland.png?alt=media&token=19b18a62-49a3-4f74-b205-42047bb3917c'
+  },
   heroImage: require('./../media/casaCaly.png'),
   phoneIcon: require('./../media/phone.png'),
   googleReviews: require('./../media/googleReviews.png'),
