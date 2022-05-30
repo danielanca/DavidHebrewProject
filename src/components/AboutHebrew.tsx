@@ -2,7 +2,7 @@ import styles from './../components/AboutHebrew.module.scss';
 
 const AboutHebrew = () => {
   return (
-    <div className={styles.wrapperContainer}>
+    <div id="aboutus" className={styles.wrapperContainer}>
       <div className="container-fluid ">
         <div className="row">
           <div className="col">
@@ -10,16 +10,17 @@ const AboutHebrew = () => {
               <h3 className={styles.titleName}>{'Despre noi'}</h3>
               <div className={styles.messageDescription}>
                 <p>
-                  {
-                    'Societatea noastra ara la baza satifacerea nevoilor clentilor,atat frunizorilor cat si a cumparatorilor.Obiectul principal al fimrei este exportul de fructe de padure si europaleti.'
-                  }
+                  {'Societatea noastră ara la baza satifacerea nevoilor clienților, atât frunizorilor cât și a cumpărătorilor.'}
                 </p>
+                <p>{'Obiectul principal al firmei este exportul de fructe de padure și europaleți.'}</p>
                 <p>
                   {
-                    'Societatea noastra mai are ca obiect de activitate importul de metale pretioase care sunt adresate cuparatorilor acestia fiind fie personae fizice sau pesroane juridice.Asteptam solicitarile dumneavoatra la sectiunea contact.'
+                    'Deasemenea efectuam import de metale pretioase care sunt adresate cumpărătorilor acestia fiind fie persoane fizice sau pesroane juridice.Asteptam solicitările dumneavoatră la secțiunea contact.'
                   }
                 </p>
-                <p>{'Va multumim.'}</p>
+                <p className={styles.thankyouMessage}>
+                  <strong>{'Va mulțumim.'}</strong>
+                </p>
               </div>
             </div>
           </div>
