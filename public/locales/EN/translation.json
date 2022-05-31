@@ -1,0 +1,38 @@
+{
+  "navMenu": {
+    "desprenoi": { "text": "About us", "link": "#despre-noi" },
+    "produse": { "text": "Products", "link": "#produse" },
+    "contact": { "text": "Contact", "link": "#contact" },
+    "altele": { "text": "Others", "link": "#altele" }
+  },
+  "heroMessage": {
+    "firstHero": "David Hebrew",
+    "textWelcome": "Let's talk!"
+  },
+  "aboutUs": {
+    "textCategory": "About us",
+    "message1": "Our company is based on satisfying the needs of customers, both supplyers and buyers.",
+    "message2": "The main purpose of the company is the export of berries and europallets.",
+    "message3": "We are waiting for your requests in the contact section.",
+    "thankyou": "Thank you!"
+  },
+  "productsArea": {
+    "textCategory": "SERVICES",
+    "productItem1": "Berries",
+    "productItem1Desc": " Our company <strong> deals with the export of berries  </strong> care sunt  <strong>that are selectively  </strong> harvested directly from the forests of Romania.",
+    "productNames": {
+      "item1": "Raspberry",
+      "item2": "Cranberries",
+      "item3": "Blackberries"
+    },
+    "productItem2": "Precious metals",
+    "productItem2Desc": "Our company imports from abroad <strong>precious metals</strong> such as <strong>gold and diamonds </strong>.",
+    "otherDetails": "We sell 22 and 24 karat gold in the form of ingots.",
+    "otherDetails2": "Minimum order quantity: 1 1 KG ingot ",
+
+    "productItem3": "PALLETS",
+    "descriptionItem3": " Our company offers <strong>europallets</strong> and <strong>special pallets</strong> for sale",
+    "dimension": "<strong>Europallet dimensions:  </strong> 1200 mm X800mm x145 mm",
+    "waitingFor": "We are also waiting for your request for special pallets that are dimensionless."
+  }
+}

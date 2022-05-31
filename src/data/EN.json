@@ -1,9 +1,9 @@
 {
   "navMenu": {
-    "desprenoi": { "text": "Despre noi", "link": "#despre-noi" },
-    "produse": { "text": "Produse", "link": "#produse" },
+    "desprenoi": { "text": "About us", "link": "#despre-noi" },
+    "produse": { "text": "productsArea", "link": "#produse" },
     "contact": { "text": "Contact", "link": "#contact" },
-    "altele": { "text": "Altele", "link": "#altele" }
+    "altele": { "text": "Others", "link": "#altele" }
   },
   "heroMessage": {
     "firstHero": "David Hebrew",

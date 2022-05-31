@@ -1,3 +1,6 @@
+@import './../main.module.scss';
+@import './../data/themes.scss';
+
 .backdropLanguage {
   position: sticky;
   left: 0;
@@ -8,26 +11,87 @@
 }
 
 .languageCardboard {
-  position: sticky;
-  top: 0px;
-  left: 0px;
-  width: 100%;
+  position: absolute;
+
+  bottom: 0px;
+
   height: 70px;
   margin: auto;
-  background-color: rgb(255, 255, 255);
   border: 1px solid gray;
   z-index: 500;
+  background-color: rgb(251 227 3);
+  bottom: 38px;
+  right: 48px;
+  width: 18%;
+  top: 28px;
+  border-radius: 2px;
+
+  @include media('<desktop') {
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    top: unset;
+    right: unset;
+  }
+  // animation: fadeIn ease 150s;
+  // -webkit-animation: fadeIn ease 15s;
+  // -moz-animation: fadeIn ease 15s;
+  // -o-animation: fadeIn ease 15s;
+  // -ms-animation: fadeIn ease 15s;
+  // opacity: 0;
 }
 .wrapSelect {
+  // max-width: 200px;
+  // margin: auto;
+  // display: flex;
+  // justify-content: space-between;
+
   max-width: 200px;
-  margin: auto;
+  right: 17px;
+  position: absolute;
   display: flex;
   justify-content: space-between;
 }
 .iconLang {
   width: 70px;
   cursor: pointer;
+  margin: auto;
 }
 .chooseLanguage {
   font-weight: bold;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
