@@ -1,9 +1,9 @@
 {
   "navMenu": {
-    "desprenoi": { "text": "Despre noi", "link": "#despre-noi" },
+    "desprenoi": { "text": "Despre noi", "link": "#aboutus" },
     "produse": { "text": "Produse", "link": "#produse" },
     "contact": { "text": "Contact", "link": "#contact" },
-    "altele": { "text": "Altele", "link": "#altele" }
+    "altele": { "text": "Curand", "link": "#soon" }
   },
   "heroMessage": {
     "firstHero": "David Hebrew",
@@ -36,20 +36,13 @@
     "waitingFor": "Așteptăm solictatea dumneavoastră si pentru paleți speciali care sunt adimensionali."
   },
   "footer": {
-    "menuItems": {
-      "bunvenit": { "text": "Bun Venit", "link": "#bunvenit" },
-      "galerie": { "text": "Galerie", "link": "#galerie" },
-      "rezervare": { "text": "Rezervare", "link": "#rezervare" },
-      "contact": { "text": "Contact", "link": "#contact" }
-    },
-
     "address": {
-      "locationAddress": "Strada Frăgăriște 28, Turda, jud.Cluj",
-      "phone": "+40 759 791 474",
-      "email": "emilcristiann@gmail.com"
+      "locationAddress": "Str. Monariu nr.105 com. Budacu de Jos, jud. Bistrita-Nasaud",
+      "phone": "+40 771 698 071",
+      "email": "rus.david@davidhebrew.com"
     },
     "copyrightStuff": {
-      "copyText": "Copyright C 2022 | CasaCaly.Ro Turda | Website creat de  DaniAnca.Ro"
+      "copyText": "Copyright C 2022 | DavidHebrew.com Romania "
     }
   }
 }

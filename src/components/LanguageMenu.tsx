@@ -3,10 +3,7 @@ import styles from './LanguageMenu.module.scss';
 import images from '../data/images';
 import { useTranslation } from 'react-i18next';
 
-interface LanguageProps {
-  languageSelected?: (lang: string) => void;
-}
-const LanguageMenu = ({ languageSelected }: LanguageProps) => {
+const LanguageMenu = () => {
   var theLanguage: string | null = localStorage.getItem('language');
   if (!theLanguage) {
     theLanguage = 'RO';

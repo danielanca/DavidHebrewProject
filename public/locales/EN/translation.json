@@ -1,9 +1,9 @@
 {
   "navMenu": {
-    "desprenoi": { "text": "About us", "link": "#despre-noi" },
+    "desprenoi": { "text": "About us", "link": "#aboutus" },
     "produse": { "text": "Products", "link": "#produse" },
     "contact": { "text": "Contact", "link": "#contact" },
-    "altele": { "text": "Others", "link": "#altele" }
+    "altele": { "text": "Soon", "link": "#soon" }
   },
   "heroMessage": {
     "firstHero": "David Hebrew",
@@ -21,8 +21,8 @@
     "productItem1": "Berries",
     "productItem1Desc": " Our company <strong> deals with the export of berries  </strong> care sunt  <strong>that are selectively  </strong> harvested directly from the forests of Romania.",
     "productNames": {
-      "item1": "Raspberry",
-      "item2": "Cranberries",
+      "item1": "Cranberries",
+      "item2": "Raspberry",
       "item3": "Blackberries"
     },
     "productItem2": "Precious metals",
@@ -34,5 +34,16 @@
     "descriptionItem3": " Our company offers <strong>europallets</strong> and <strong>special pallets</strong> for sale",
     "dimension": "<strong>Europallet dimensions:  </strong> 1200 mm X800mm x145 mm",
     "waitingFor": "We are also waiting for your request for special pallets that are dimensionless."
+  },
+
+  "footer": {
+    "address": {
+      "locationAddress": "Str. Monariu nr.105 com. Budacu de Jos, jud. Bistrita-Nasaud",
+      "phone": "+40 771 698 071",
+      "email": "rus.david@davidhebrew.com"
+    },
+    "copyrightStuff": {
+      "copyText": "Copyright C 2022 | DavidHebrew.com Romania "
+    }
   }
 }

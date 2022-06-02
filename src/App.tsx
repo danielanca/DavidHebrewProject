@@ -9,7 +9,7 @@ import SemiHero from './components/SemiHero';
 import ReactGA from 'react-ga4';
 import AboutHebrew from './components/AboutHebrew';
 import Products from './components/Products';
-
+import Footer from './components/Footer';
 ReactGA.initialize('G-Y15PCE8J0V');
 ReactGA.send('pageview');
 ReactGA.event('User scrolled to bottom');
@@ -22,6 +22,7 @@ function App() {
         <SemiHero />
         <AboutHebrew />
         <Products />
+        <Footer />
       </BrowserRouter>
     </div>
   );

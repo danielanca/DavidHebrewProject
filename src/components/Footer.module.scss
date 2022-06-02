@@ -1,11 +1,11 @@
-@import "./../main.module.scss";
+@import './../main.module.scss';
 
 .footerContainer {
   width: 100%;
 
   background: rgb(25, 128, 0);
-  background: linear-gradient(180deg, rgb(17 147 15) 0%, rgba(2, 78, 15, 0.79) 100%);
 
+  background: linear-gradient(180deg, rgb(0 0 0) 0%, rgb(28 28 25) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ ul {
   white-space: nowrap;
   column-gap: calc(15px + 0.3vw);
 
-  @include media("<tablet") {
+  @include media('<tablet') {
     flex-direction: column;
     column-gap: 12px;
   }
@@ -70,7 +70,7 @@ ul li {
   display: table;
   margin: auto;
 
-  @include media("<tablet") {
+  @include media('<tablet') {
     width: 93vw;
   }
 }
@@ -78,33 +78,37 @@ ul li {
   color: white;
   margin: 0;
 }
+.longLine > a {
+  color: none;
+  text-decoration: none;
+}
 .copyrightItem {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-flow: wrap;
-  @include media("<tablet") {
+  @include media('<tablet') {
     flex-direction: column;
   }
+}
+.copyrightItem > a {
+  color: unset;
 }
 .copyrightItem p {
   color: white;
   margin: 0;
   font-size: calc(7px + 0.4vw);
   flex-flow: wrap;
-  @include media("<tablet") {
+  @include media('<tablet') {
     font-size: 12px;
     padding: 0px 20px;
-  }
-  @include media(">=tablet") {
-    // font-size: 11px;
   }
 }
 .bottomLogo {
   width: 84px;
   margin: 0 5px;
-  @include media("<tablet") {
+  @include media('<tablet') {
     margin-top: 10px;
   }
 }

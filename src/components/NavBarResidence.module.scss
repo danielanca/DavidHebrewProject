@@ -1,5 +1,5 @@
-@import "./../main.module.scss";
-@import "./../data/themes.scss";
+@import './../main.module.scss';
+@import './../data/themes.scss';
 
 .middleNoUl {
   @extend .col-3;
@@ -11,11 +11,9 @@
   top: 0;
 }
 .navbarContainer {
-  
   width: 100%;
   height: 83px;
   position: absolute;
-  
 
   background-color: rgb(9 17 11 / 80%);
   display: flex;
@@ -42,13 +40,13 @@
 
 .ulMenuStart {
   @extend .ulMenu;
-  @include media("<tablet") {
+  @include media('<tablet') {
     display: none;
   }
 }
 .ulMenuEnd {
   @extend .ulMenu;
-  @include media("<tablet") {
+  @include media('<tablet') {
     display: none;
   }
 }
@@ -64,7 +62,7 @@
 .burgerMenu {
   display: none;
 
-  @include media("<desktop") {
+  @include media('<desktop') {
     border: 2px solid map-get($map: $colors, $key: mainlyBlack);
     background-color: map-get($map: $colors, $key: burgerColorBackground);
     background-color: #ffdc2bbe;
@@ -88,7 +86,7 @@
 }
 .activeBurger {
   display: block;
-  @include media("<desktop") {
+  @include media('<desktop') {
     opacity: 1;
     align-self: center;
   }
@@ -103,10 +101,10 @@
   font-weight: bolder;
   margin-top: 6%;
 
-  @include media("<tablet") {
+  @include media('<tablet') {
     font-size: calc(20px + 33%);
   }
-  @include media(">=tablet", "<desktop") {
+  @include media('>=tablet', '<desktop') {
     font-size: 2.3vh;
   }
 }
@@ -124,35 +122,30 @@
   &:hover {
     animation: borderFade 0.4s;
   }
-  &:hover {
-    border-bottom: 2.5px solid map-get($map: $colors, $key: liItemColor);
-   
-  }
-  @keyframes borderFade {
-    0% {
-      border-bottom: 2.5px solid transparent;
-    }
-    100% {
-      border-bottom: 2.5px solid map-get($map: $colors, $key: liItemColor);
-    }
-  }
 }
 .HashLinkStyle {
-  background-image: linear-gradient(to right, #462523 0, #cb9b51 0%, #f6e27a 32%, #f6f2c0 54%, #f6e27a 17%, #cb9b51 103%, #462523 91%);
-       color: transparent;
-       -webkit-background-clip: text;
-  // color: map-get($map: $colors, $key: liItemColor);
-  @include media('<tablet'){
+  background-image: linear-gradient(
+    to right,
+    #462523 0,
+    #cb9b51 0%,
+    #f6e27a 32%,
+    #f6f2c0 54%,
+    #f6e27a 17%,
+    #cb9b51 103%,
+    #462523 91%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+
+  @include media('<tablet') {
     background-image: black;
 
-      color: black;
-       -webkit-background-clip: text;
+    color: black;
+    -webkit-background-clip: text;
   }
   text-decoration: none;
-  &:hover {
-    background-image: linear-gradient(to right, #462523 0, #cb9b51 0%, #f6e27a 32%, #f6f2c0 54%, #f6e27a 17%, #cb9b51 103%, #462523 91%);
-  }
 }
+
 .navLogo {
   top: 0;
   height: 100%;
@@ -169,21 +162,20 @@
 .bar1,
 .bar2,
 .bar3 {
-  @include media("<tablet") {
+  @include media('<tablet') {
     width: 28px;
     height: 2.5px;
-   
-    
+
     background-color: #f6e27a;
     margin: 3px 0;
     transition: 0.8s;
   }
 
-  @include media(">=tablet", "<desktop") {
+  @include media('>=tablet', '<desktop') {
     width: 33px;
     height: 3.5px;
     background-color: white;
-   
+
     margin: 5px 0;
     transition: 0.8s;
   }
@@ -211,7 +203,7 @@
   position: absolute;
   left: 0%;
   margin-top: 13px;
-  @include media(">=tablet") {
+  @include media('>=tablet') {
     display: none;
   }
 }
@@ -219,7 +211,7 @@
 .backDropBackground {
   display: none;
   background-color: black;
-  @include media("<desktop") {
+  @include media('<desktop') {
     opacity: 0.7;
     width: 100vw;
     position: absolute;

@@ -1,30 +1,28 @@
-import images from "./../data/images";
-import strings from "../data/strings.json";
+import { useTranslation } from 'react-i18next';
+import images from './../data/images';
+import strings from '../data/strings.json';
 
-import styles from "./Footer.module.scss";
+import styles from './Footer.module.scss';
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div id="contact" className={styles.footerContainer}>
       <div className={styles.footerItems}>
         <img className={styles.logoStyle} src={images.logo} />
 
-        <div>
-          {/* <ul className={styles.ulItem}>
-            {Object.values(strings.footer.menuItems).map((item) => (
-              <li className={styles.liItem}>{item.text}</li>
-            ))}
-          </ul> */}
-        </div>
         <div className={styles.longLine}>
-          {Object.values(strings.footer.address).map((item) => (
-            <p className={styles.pFooter}>{item}</p>
-          ))}
+          <p className={styles.pFooter}>{t('footer.address.locationAddress')}</p>
+          <a href={`tel:${t('footer.address.phone')}`}>
+            <p className={styles.pFooter}>{t('footer.address.phone')}</p>
+          </a>
+          <a href={`mailto:${t('footer.address.email')}`}>
+            <p className={styles.pFooter}>{t('footer.address.email')}</p>
+          </a>
         </div>
         <div className={styles.copyrightItem}>
-          <a href="https://danianca.ro">
-            <p className={styles.footerText}>{strings.footer.copyrightStuff.copyText}</p>
-          </a>
+          <p className={styles.footerText}>{strings.footer.copyrightStuff.copyText}</p>
         </div>
       </div>
     </div>

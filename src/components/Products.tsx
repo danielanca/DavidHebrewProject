@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 const Products = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div className={styles.productContainer}>
+    <div id="produse" className={styles.productContainer}>
       <div className="container-fluid">
         <div className="row">
           <div className="col">
@@ -22,11 +22,11 @@ const Products = () => {
             <div className={styles.productList}>
               <div className={styles.item}>
                 <img className={styles.itemPic} src={images.products.afine} />
-                <h3 className={styles.titleProduct}>{t('productsArea.productNames.item2')}</h3>
+                <h3 className={styles.titleProduct}>{t('productsArea.productNames.item1')}</h3>
               </div>
               <div className={styles.item}>
                 <img className={styles.itemPic} src={images.products.zmeura} />
-                <h3 className={styles.titleProduct}>{t('productsArea.productNames.item1')}</h3>
+                <h3 className={styles.titleProduct}>{t('productsArea.productNames.item2')}</h3>
               </div>
               <div className={styles.item}>
                 <img className={styles.itemPic} src={images.products.mure} />

@@ -10,7 +10,8 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'EN',
+    fallbackLng: 'RO',
+    lng: 'RO',
     debug: true,
     whitelist: languages,
     interpolation: {
