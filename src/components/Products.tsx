@@ -10,9 +10,9 @@ const Products = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <h3 className={styles.categoryTitle}>{t('productsArea.textCategory')}</h3>
+            <h1 className={styles.categoryTitle}>{t('productsArea.textCategory')}</h1>
 
-            <h3 className={styles.titleTop}>{t('productsArea.productItem1')}</h3>
+            <h2 className={styles.titleTop}>{t('productsArea.productItem1')}</h2>
             <div className={styles.messageBottom}>
               <p>{parse(t('productsArea.productItem1Desc'))}</p>
             </div>

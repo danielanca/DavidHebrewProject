@@ -9,8 +9,8 @@ const HeroHeader = () => {
       <div className={styles.imageBackground}></div>
       <div className={styles.headerTitle}>
         <img className={styles.starLogo} src={images.logo}></img>
-        <h3 className={styles.h3Title}>{t('heroMessage.firstHero')}</h3>
-        <h3 className={styles.prices}>{t('heroMessage.textWelcome')} </h3>
+        <h1 className={styles.h3Title}>{t('heroMessage.firstHero')}</h1>
+        <h2 className={styles.prices}>{t('heroMessage.textWelcome')} </h2>
       </div>
     </div>
   );
